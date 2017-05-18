@@ -1,3 +1,6 @@
+import RPi.GPIO as GPIO
+import time as Time
+
 # tester
 def helloWorld():
 	print("Hello World!")
@@ -30,10 +33,27 @@ def resetOne(pinNumber):
 	GPIO.setup(pinNumber, GPIO.OUT)
 	GPIO.cleanup()
 
+def setupPinOut(pinNumber):
+	GPIO.setup(pinNumber, GPIO.OUT)
+
+def setupPinIn(pinNumber):
+	GPIO.setup(pinNumber, GPIO.IN)
+
+
+
+def sleep(sleepTime):
+	Time.sleep(sleepTime)	
+
+
+
+
+
 print("*" * 50)
 print("************ Aaron's Library Loaded: *************")
 print("**************** Known commands: *****************")
 print("*" * 50)
 print("      setupBoard() - Setup board")
 print("      resetAll() - Reset all pins")
-print("      resetOne(???) - Reset one pin")
+print("      resetOne(pin #) - Reset one pin")
+print("      setupPinOut(pin #) - Setup pin out")
+print("      setupPinIn(pin #) - Setup pin in")
