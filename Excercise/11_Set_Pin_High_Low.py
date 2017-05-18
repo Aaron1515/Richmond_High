@@ -1,5 +1,4 @@
 from aarons_library import *
-# import functions
 
 setupBoard()
 setupPinOut(11)
@@ -13,5 +12,5 @@ setupPinOut(13)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~ End Code ~~~~~~~~~~~~~~~~~~~~~~~ #
 
-sleep(5)
+sleep(10)
 resetAll()

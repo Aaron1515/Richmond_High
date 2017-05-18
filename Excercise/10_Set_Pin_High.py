@@ -20,5 +20,5 @@ setupPinOut(11)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~ End Code ~~~~~~~~~~~~~~~~~~~~~~~ #
 
-sleep(5)
+sleep(10)
 resetAll()

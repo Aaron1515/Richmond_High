@@ -1,5 +1,4 @@
-#Directions: Create a For loop that will repeat itself five times using
-#the syntax from the background information
+#Directions: Create a For loop that will repeat itself five times
 
 
 
