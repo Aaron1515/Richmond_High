@@ -1,12 +1,12 @@
 from aarons_library import *
-	# import functions
+# import functions
 
 setupBoard()
 	# import RPi.GPIO as GPIO
 	# import time as Time
 	# GPIO.setmode(GPIO.BOARD)
 	# GPIO.setwarnings(False)
-	
+
 setupPinOut(11)
 	# GPIO.setup(11, GPIO.OUT)
 
