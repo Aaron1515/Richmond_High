@@ -7,6 +7,7 @@ def setupBoard():
 	import RPi.GPIO as GPIO
 	import time as Time
 	GPIO.setmode(GPIO.BOARD)
+	GPIO.setwarnings(False)
 	Print("Raspberry used as GPIO")
 	Print("Time used as Time")
 	Print("Please setup pins")
